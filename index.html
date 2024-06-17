@@ -1,10 +1,136 @@
 <!doctype html>
 <head>
-	<title>
-		net1
-	</title>
+    <title>
+        net1
+    </title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(140 140 140);
+            font-family: sans-serif;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            overflow-x: auto;
+            max-width: 50vw;
+        }
+
+        caption {
+            caption-side: bottom;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        thead {
+            position: sticky;
+        }
+
+        thead,
+        tfoot {
+            background-color: rgb(228 240 245);
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(160 160 160);
+            padding: 8px 10px;
+        }
+
+            td:last-of-type {
+                text-align: center;
+            }
+
+        tbody {
+            white-space: nowrap;
+        }
+
+            tbody > tr:nth-of-type(even) {
+                background-color: rgb(237 238 242);
+            }
+
+        tfoot th {
+            text-align: center;
+        }
+
+        tfoot td {
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            max-width: 90vw;
+            height: 20vw;
+            margin: 0 auto;
+            display: block;
+            overflow-x: auto;
+            border-spacing: 0;
+        }
+
+        tbody {
+            white-space: nowrap;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 1.5rem;
+            text-align:center;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-	<p>use https://www.luogu.com.cn/problem/U436387 to commit all codes</p>
-	<img alt="Picture" src="page.png"/>
+    <p>use the program below to commit all codes(use hash of code and ciphertext of the clue)</p>
+    <a href="HASHERS.exe" download="exe file">
+        <img alt="exe file" src="newtab.svg" />
+    </a>
+    or
+    <a href="HASHERS.cpp" download="source code">
+        <img alt="source code" src="newtab.svg" />
+    </a>
+    <table>
+        <caption>
+            Available code hashs and and its corresponding ciphertexts
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Code hash</th>
+                <th scope="col">Ciphertexts</th>
+                <th scope="col">Hint (if needed)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">
+                    4c5839bd8f29240a8997cfb7890c42c17cf3bb63e9c28c352ccd8bf43ecf85f0dbcc68d65b000003347ac56a419df7debe05a3d4c86cfc55cba46c5120ac5a7b
+                </th>
+                <td>
+                    bbd409c5a264a63c28e0e3be3e5f45d55cbb804db557733e892364e0eb34d10f461c7f3eaa055e3036679ada8642f5f6ced68a260aa5ff5c80fe704355d861cf
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    9141ae9adff581f37e0def63fc4cdec773b726bd2d7fd535b6cae2511e54d21ee6fe0ee132905990e2f821d912aa524302e812e46c5426066eab19091af6851e
+                </th>
+                <td>
+                    f9fdd77bc10af85759ee12b5db6de4c1f174e25f552d9af032f55b7e637c84606dbee875c5cd196f8e69ca860abd0318e573de5348e93a72d0e14c320adefbfbbf3ad006cb1d0eb0
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">
+                    cc105bce7d653af2e2f1be1743458ad0e2a82972c285e24dbdae9dfc3f25269ce62bd610ffa852fec2568bcce0d6a7983dd56889fdd6e4a1572c012673c203d2
+                </th>
+                <td>
+                    98bcdaca7346d5fbbc141a1904943638be01c954a631f16d35dbf2daf875c5f76fd89afe2dbf28da9ef9609bba692736b1df282c8f96be59680f22bfa2e66d724bebbdd4cb2cb40d73cad92c18afcb9f3d4b63276aa1ddf128c1c0cf0583e2cbbee0eeb8959f7e81
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="3">Note: the hash is not SHA256, but a new hash</th>
+            </tr>
+        </tfoot>
+    </table>
+    <img alt="Picture" src="https://justascratcher.github.io/net1/page.png" />
 </body>
